@@ -1,0 +1,28 @@
+Ans 1: Open your terminal or command prompt.
+       Type git --version.
+
+Ans 2: Create a new repository.
+       Open Git bash.
+       Change the current working directory to your local project.
+       Use the init command to initialize the local directory as a Git repository. By default, the initial branch is called main.
+       Add the files in your new local repository. This stages them for the first commit.
+       Commit the files that you've staged in your local repository.
+
+Ans 3: Username :- git config --global user.name "<your_username>"
+       Email :- git config --global user.email "<your_email>"
+
+Ans 4: git add[file name]
+
+Ans 5: git reset[file name]
+
+Ans 6: git commit.
+       git commit -a.
+       git commit -m "commit message"
+       git commit -am "commit message"
+       git commit --amend.
+
+Ans 7: To push the commit from the local repo to your remote repositories, run git push -u remote-name branch-name where
+       remote-name is the nickname the local repo uses forthe remote repositories and branch-name is the name of the branch to push to the repository.
+
+Ans 8: git clone is how you get a local copy of an existing repository to work on. 
+       git pull (or git fetch + git merge ) is how you update that local copy with new commits from the remote repository.
